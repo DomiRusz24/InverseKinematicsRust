@@ -120,8 +120,8 @@ impl SnakeGameLayer {
         let size = rng.gen_range(70. .. 100.);
         let amount = rng.gen_range(4 .. 7);
 
-        let x = rng.gen_range(size .. self.resolution[0] - size);
-        let y = rng.gen_range(size .. self.resolution[1] - size);
+        let x = rng.gen_range(size .. self.map.width - size);
+        let y = rng.gen_range(size .. self.map.height - size);
 
         self.apples.push(Food {
             texture,
