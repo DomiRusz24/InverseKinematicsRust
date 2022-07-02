@@ -75,7 +75,7 @@ fn main() {
 
     let opengl = OpenGL::V4_5;
 
-    let mut window: GlutinWindow = WindowSettings::new("Snake", [1500, 1500])
+    let mut window: GlutinWindow = WindowSettings::new("Snake", [500, 500])
         .graphics_api(opengl)
         .exit_on_esc(true)
         .build()
