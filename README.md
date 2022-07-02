@@ -11,3 +11,6 @@
 
 ## Compilation:
 > ## `cargo build --release`
+
+# Epic video
+[![Russssst](http://img.youtube.com/vi/ExE0PyllUQc/0.jpg)](http://www.youtube.com/watch?v=ExE0PyllUQc "Russssst")
